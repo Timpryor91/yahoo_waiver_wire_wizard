@@ -1,0 +1,2158 @@
+{
+  "allow_add_to_dl_extra_pos": 1,
+  "current_week": 11,
+  "draft_results": [
+    {
+      "draft_result": {
+        "pick": 1,
+        "round": 1,
+        "team_key": "402.l.254983.t.1",
+        "player_key": "402.p.4563"
+      }
+    },
+    {
+      "draft_result": {
+        "pick": 2,
+        "round": 1,
+        "team_key": "402.l.254983.t.3",
+        "player_key": "402.p.6014"
+      }
+    },
+    {
+      "draft_result": {
+        "pick": 3,
+        "round": 1,
+        "team_key": "402.l.254983.t.4",
+        "player_key": "402.p.5007"
+      }
+    },
+    {
+      "draft_result": {
+        "pick": 4,
+        "round": 1,
+        "team_key": "402.l.254983.t.2",
+        "player_key": "402.p.5432"
+      }
+    },
+    {
+      "draft_result": {
+        "pick": 5,
+        "round": 2,
+        "team_key": "402.l.254983.t.2",
+        "player_key": "402.p.4612"
+      }
+    },
+    {
+      "draft_result": {
+        "pick": 6,
+        "round": 2,
+        "team_key": "402.l.254983.t.4",
+        "player_key": "402.p.5185"
+      }
+    },
+    {
+      "draft_result": {
+        "pick": 7,
+        "round": 2,
+        "team_key": "402.l.254983.t.3",
+        "player_key": "402.p.5352"
+      }
+    },
+    {
+      "draft_result": {
+        "pick": 8,
+        "round": 2,
+        "team_key": "402.l.254983.t.1",
+        "player_key": "402.p.5012"
+      }
+    },
+    {
+      "draft_result": {
+        "pick": 9,
+        "round": 3,
+        "team_key": "402.l.254983.t.1",
+        "player_key": "402.p.6016"
+      }
+    },
+    {
+      "draft_result": {
+        "pick": 10,
+        "round": 3,
+        "team_key": "402.l.254983.t.3",
+        "player_key": "402.p.5473"
+      }
+    },
+    {
+      "draft_result": {
+        "pick": 11,
+        "round": 3,
+        "team_key": "402.l.254983.t.4",
+        "player_key": "402.p.5765"
+      }
+    },
+    {
+      "draft_result": {
+        "pick": 12,
+        "round": 3,
+        "team_key": "402.l.254983.t.2",
+        "player_key": "402.p.3704"
+      }
+    },
+    {
+      "draft_result": {
+        "pick": 13,
+        "round": 4,
+        "team_key": "402.l.254983.t.2",
+        "player_key": "402.p.4896"
+      }
+    },
+    {
+      "draft_result": {
+        "pick": 14,
+        "round": 4,
+        "team_key": "402.l.254983.t.4",
+        "player_key": "402.p.4244"
+      }
+    },
+    {
+      "draft_result": {
+        "pick": 15,
+        "round": 4,
+        "team_key": "402.l.254983.t.3",
+        "player_key": "402.p.5294"
+      }
+    },
+    {
+      "draft_result": {
+        "pick": 16,
+        "round": 4,
+        "team_key": "402.l.254983.t.1",
+        "player_key": "402.p.5009"
+      }
+    },
+    {
+      "draft_result": {
+        "pick": 17,
+        "round": 5,
+        "team_key": "402.l.254983.t.1",
+        "player_key": "402.p.5827"
+      }
+    },
+    {
+      "draft_result": {
+        "pick": 18,
+        "round": 5,
+        "team_key": "402.l.254983.t.3",
+        "player_key": "402.p.4912"
+      }
+    },
+    {
+      "draft_result": {
+        "pick": 19,
+        "round": 5,
+        "team_key": "402.l.254983.t.4",
+        "player_key": "402.p.5958"
+      }
+    },
+    {
+      "draft_result": {
+        "pick": 20,
+        "round": 5,
+        "team_key": "402.l.254983.t.2",
+        "player_key": "402.p.4725"
+      }
+    },
+    {
+      "draft_result": {
+        "pick": 21,
+        "round": 6,
+        "team_key": "402.l.254983.t.2",
+        "player_key": "402.p.5832"
+      }
+    },
+    {
+      "draft_result": {
+        "pick": 22,
+        "round": 6,
+        "team_key": "402.l.254983.t.4",
+        "player_key": "402.p.4390"
+      }
+    },
+    {
+      "draft_result": {
+        "pick": 23,
+        "round": 6,
+        "team_key": "402.l.254983.t.3",
+        "player_key": "402.p.5826"
+      }
+    },
+    {
+      "draft_result": {
+        "pick": 24,
+        "round": 6,
+        "team_key": "402.l.254983.t.1",
+        "player_key": "402.p.4840"
+      }
+    },
+    {
+      "draft_result": {
+        "pick": 25,
+        "round": 7,
+        "team_key": "402.l.254983.t.1",
+        "player_key": "402.p.6022"
+      }
+    },
+    {
+      "draft_result": {
+        "pick": 26,
+        "round": 7,
+        "team_key": "402.l.254983.t.3",
+        "player_key": "402.p.5600"
+      }
+    },
+    {
+      "draft_result": {
+        "pick": 27,
+        "round": 7,
+        "team_key": "402.l.254983.t.4",
+        "player_key": "402.p.6164"
+      }
+    },
+    {
+      "draft_result": {
+        "pick": 28,
+        "round": 7,
+        "team_key": "402.l.254983.t.2",
+        "player_key": "402.p.5197"
+      }
+    },
+    {
+      "draft_result": {
+        "pick": 29,
+        "round": 8,
+        "team_key": "402.l.254983.t.2",
+        "player_key": "402.p.4897"
+      }
+    },
+    {
+      "draft_result": {
+        "pick": 30,
+        "round": 8,
+        "team_key": "402.l.254983.t.4",
+        "player_key": "402.p.5324"
+      }
+    },
+    {
+      "draft_result": {
+        "pick": 31,
+        "round": 8,
+        "team_key": "402.l.254983.t.3",
+        "player_key": "402.p.6163"
+      }
+    },
+    {
+      "draft_result": {
+        "pick": 32,
+        "round": 8,
+        "team_key": "402.l.254983.t.1",
+        "player_key": "402.p.5658"
+      }
+    },
+    {
+      "draft_result": {
+        "pick": 33,
+        "round": 9,
+        "team_key": "402.l.254983.t.1",
+        "player_key": "402.p.5601"
+      }
+    },
+    {
+      "draft_result": {
+        "pick": 34,
+        "round": 9,
+        "team_key": "402.l.254983.t.3",
+        "player_key": "402.p.3930"
+      }
+    },
+    {
+      "draft_result": {
+        "pick": 35,
+        "round": 9,
+        "team_key": "402.l.254983.t.4",
+        "player_key": "402.p.5327"
+      }
+    },
+    {
+      "draft_result": {
+        "pick": 36,
+        "round": 9,
+        "team_key": "402.l.254983.t.2",
+        "player_key": "402.p.5638"
+      }
+    },
+    {
+      "draft_result": {
+        "pick": 37,
+        "round": 10,
+        "team_key": "402.l.254983.t.2",
+        "player_key": "402.p.5073"
+      }
+    },
+    {
+      "draft_result": {
+        "pick": 38,
+        "round": 10,
+        "team_key": "402.l.254983.t.4",
+        "player_key": "402.p.5642"
+      }
+    },
+    {
+      "draft_result": {
+        "pick": 39,
+        "round": 10,
+        "team_key": "402.l.254983.t.3",
+        "player_key": "402.p.5602"
+      }
+    },
+    {
+      "draft_result": {
+        "pick": 40,
+        "round": 10,
+        "team_key": "402.l.254983.t.1",
+        "player_key": "402.p.5583"
+      }
+    },
+    {
+      "draft_result": {
+        "pick": 41,
+        "round": 11,
+        "team_key": "402.l.254983.t.1",
+        "player_key": "402.p.5727"
+      }
+    },
+    {
+      "draft_result": {
+        "pick": 42,
+        "round": 11,
+        "team_key": "402.l.254983.t.3",
+        "player_key": "402.p.5015"
+      }
+    },
+    {
+      "draft_result": {
+        "pick": 43,
+        "round": 11,
+        "team_key": "402.l.254983.t.4",
+        "player_key": "402.p.5767"
+      }
+    },
+    {
+      "draft_result": {
+        "pick": 44,
+        "round": 11,
+        "team_key": "402.l.254983.t.2",
+        "player_key": "402.p.5433"
+      }
+    },
+    {
+      "draft_result": {
+        "pick": 45,
+        "round": 12,
+        "team_key": "402.l.254983.t.2",
+        "player_key": "402.p.4152"
+      }
+    },
+    {
+      "draft_result": {
+        "pick": 46,
+        "round": 12,
+        "team_key": "402.l.254983.t.4",
+        "player_key": "402.p.4622"
+      }
+    },
+    {
+      "draft_result": {
+        "pick": 47,
+        "round": 12,
+        "team_key": "402.l.254983.t.3",
+        "player_key": "402.p.6047"
+      }
+    },
+    {
+      "draft_result": {
+        "pick": 48,
+        "round": 12,
+        "team_key": "402.l.254983.t.1",
+        "player_key": "402.p.4130"
+      }
+    },
+    {
+      "draft_result": {
+        "pick": 49,
+        "round": 13,
+        "team_key": "402.l.254983.t.1",
+        "player_key": "402.p.4886"
+      }
+    },
+    {
+      "draft_result": {
+        "pick": 50,
+        "round": 13,
+        "team_key": "402.l.254983.t.3",
+        "player_key": "402.p.4764"
+      }
+    },
+    {
+      "draft_result": {
+        "pick": 51,
+        "round": 13,
+        "team_key": "402.l.254983.t.4",
+        "player_key": "402.p.4724"
+      }
+    },
+    {
+      "draft_result": {
+        "pick": 52,
+        "round": 13,
+        "team_key": "402.l.254983.t.2",
+        "player_key": "402.p.5471"
+      }
+    }
+  ],
+  "draft_status": "postdraft",
+  "edit_key": "2021-03-02",
+  "end_date": "2021-05-16",
+  "end_week": "20",
+  "game_code": "nba",
+  "iris_group_chat_id": null,
+  "is_cash_league": "0",
+  "is_pro_league": "0",
+  "league_id": "254983",
+  "league_key": "402.l.254983",
+  "league_type": "private",
+  "league_update_timestamp": "1614671690",
+  "logo_url": false,
+  "name": "Tim Test League",
+  "num_teams": 4,
+  "password": null,
+  "players": [
+    {
+      "player": {
+        "display_position": "SG,SF",
+        "editorial_player_key": "nba.p.3248",
+        "editorial_team_abbr": "Atl",
+        "editorial_team_full_name": "Atlanta Hawks",
+        "editorial_team_key": "nba.t.1",
+        "eligible_positions": [
+          {
+            "position": "SG"
+          },
+          {
+            "position": "G"
+          },
+          {
+            "position": "SF"
+          },
+          {
+            "position": "F"
+          },
+          {
+            "position": "Util"
+          }
+        ],
+        "headshot": {
+          "size": "small",
+          "url": "https://s.yimg.com/iu/api/res/1.2/sEG2vRdY8AQD.YhpC1Lxcw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/10142019/3248.png"
+        },
+        "is_undroppable": "0",
+        "name": {
+          "ascii_first": "Vince",
+          "ascii_last": "Carter",
+          "first": "Vince",
+          "full": "Vince Carter",
+          "last": "Carter"
+        },
+        "player_id": "3248",
+        "player_key": "402.p.3248",
+        "position_type": "P",
+        "primary_position": "SG",
+        "status": "NA",
+        "uniform_number": "15"
+      }
+    },
+    {
+      "player": {
+        "display_position": "PG",
+        "editorial_player_key": "nba.p.3294",
+        "editorial_team_abbr": "Sac",
+        "editorial_team_full_name": "Sacramento Kings",
+        "editorial_team_key": "nba.t.23",
+        "eligible_positions": [
+          {
+            "position": "PG"
+          },
+          {
+            "position": "G"
+          },
+          {
+            "position": "Util"
+          }
+        ],
+        "headshot": {
+          "size": "small",
+          "url": "https://s.yimg.com/iu/api/res/1.2/TcM85WhJ.fAOHWf2QKLjIw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMDA7Y3I9MTtjdz0xNTM7ZHg9NzQ7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/dh/ap/default/140828/silhouette@2x.png"
+        },
+        "is_undroppable": "0",
+        "name": {
+          "ascii_first": "Corey",
+          "ascii_last": "Brewer",
+          "first": "Corey",
+          "full": "Corey Brewer",
+          "last": "Brewer"
+        },
+        "player_id": "3294",
+        "player_key": "402.p.3294",
+        "position_type": "P",
+        "primary_position": "PG",
+        "status": "NA",
+        "uniform_number": null
+      }
+    },
+    {
+      "player": {
+        "display_position": "SG,SF",
+        "editorial_player_key": "nba.p.3407",
+        "editorial_team_abbr": "Bkn",
+        "editorial_team_full_name": "Brooklyn Nets",
+        "editorial_team_key": "nba.t.17",
+        "eligible_positions": [
+          {
+            "position": "SG"
+          },
+          {
+            "position": "G"
+          },
+          {
+            "position": "SF"
+          },
+          {
+            "position": "F"
+          },
+          {
+            "position": "Util"
+          }
+        ],
+        "headshot": {
+          "size": "small",
+          "url": "https://s.yimg.com/iu/api/res/1.2/eVdV7HKJL7BNvjSE6PPd_g--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/10132017/3407.png"
+        },
+        "is_undroppable": "0",
+        "name": {
+          "ascii_first": "Jamal",
+          "ascii_last": "Crawford",
+          "first": "Jamal",
+          "full": "Jamal Crawford",
+          "last": "Crawford"
+        },
+        "player_id": "3407",
+        "player_key": "402.p.3407",
+        "position_type": "P",
+        "primary_position": "SG",
+        "status": "NA",
+        "uniform_number": "1"
+      }
+    },
+    {
+      "player": {
+        "display_position": "C",
+        "editorial_player_key": "nba.p.3512",
+        "editorial_team_abbr": "Hou",
+        "editorial_team_full_name": "Houston Rockets",
+        "editorial_team_key": "nba.t.10",
+        "eligible_positions": [
+          {
+            "position": "C"
+          },
+          {
+            "position": "Util"
+          }
+        ],
+        "headshot": {
+          "size": "small",
+          "url": "https://s.yimg.com/iu/api/res/1.2/T94F_EwC_qniUifrvHSf8A--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/10082019/3512.png"
+        },
+        "is_undroppable": "0",
+        "name": {
+          "ascii_first": "Tyson",
+          "ascii_last": "Chandler",
+          "first": "Tyson",
+          "full": "Tyson Chandler",
+          "last": "Chandler"
+        },
+        "player_id": "3512",
+        "player_key": "402.p.3512",
+        "position_type": "P",
+        "primary_position": "C",
+        "status": "NA",
+        "uniform_number": "19"
+      }
+    },
+    {
+      "player": {
+        "display_position": "SF,PF",
+        "editorial_player_key": "nba.p.3520",
+        "editorial_team_abbr": "Det",
+        "editorial_team_full_name": "Detroit Pistons",
+        "editorial_team_key": "nba.t.8",
+        "eligible_positions": [
+          {
+            "position": "SF"
+          },
+          {
+            "position": "PF"
+          },
+          {
+            "position": "F"
+          },
+          {
+            "position": "Util"
+          }
+        ],
+        "headshot": {
+          "size": "small",
+          "url": "https://s.yimg.com/iu/api/res/1.2/ebaqeKRRRlsjGlfJJohMNQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/10102019/3520.png"
+        },
+        "is_undroppable": "0",
+        "name": {
+          "ascii_first": "Joe",
+          "ascii_last": "Johnson",
+          "first": "Joe",
+          "full": "Joe Johnson",
+          "last": "Johnson"
+        },
+        "player_id": "3520",
+        "player_key": "402.p.3520",
+        "position_type": "P",
+        "primary_position": "SF",
+        "status": "NA",
+        "uniform_number": "24"
+      }
+    },
+    {
+      "player": {
+        "display_position": "PG,SG,SF",
+        "editorial_player_key": "nba.p.3704",
+        "editorial_team_abbr": "LAL",
+        "editorial_team_full_name": "Los Angeles Lakers",
+        "editorial_team_key": "nba.t.13",
+        "eligible_positions": [
+          {
+            "position": "PG"
+          },
+          {
+            "position": "SG"
+          },
+          {
+            "position": "G"
+          },
+          {
+            "position": "SF"
+          },
+          {
+            "position": "F"
+          },
+          {
+            "position": "Util"
+          }
+        ],
+        "has_player_notes": 1,
+        "headshot": {
+          "size": "small",
+          "url": "https://s.yimg.com/iu/api/res/1.2/eAF.Tgg980pAAI70YAFECA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/01052021/3704.png"
+        },
+        "is_undroppable": "1",
+        "name": {
+          "ascii_first": "LeBron",
+          "ascii_last": "James",
+          "first": "LeBron",
+          "full": "LeBron James",
+          "last": "James"
+        },
+        "player_id": "3704",
+        "player_key": "402.p.3704",
+        "player_notes_last_timestamp": 1614573401,
+        "position_type": "P",
+        "primary_position": "PG",
+        "status": "GTD",
+        "uniform_number": "23"
+      }
+    },
+    {
+      "player": {
+        "display_position": "SF,PF",
+        "editorial_player_key": "nba.p.3706",
+        "editorial_team_abbr": "Por",
+        "editorial_team_full_name": "Portland Trail Blazers",
+        "editorial_team_key": "nba.t.22",
+        "eligible_positions": [
+          {
+            "position": "SF"
+          },
+          {
+            "position": "PF"
+          },
+          {
+            "position": "F"
+          },
+          {
+            "position": "Util"
+          }
+        ],
+        "has_player_notes": 1,
+        "headshot": {
+          "size": "small",
+          "url": "https://s.yimg.com/iu/api/res/1.2/au.5MykIhcvUkG.FhIAfdA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/12182020/3706.png"
+        },
+        "is_undroppable": "0",
+        "name": {
+          "ascii_first": "Carmelo",
+          "ascii_last": "Anthony",
+          "first": "Carmelo",
+          "full": "Carmelo Anthony",
+          "last": "Anthony"
+        },
+        "player_id": "3706",
+        "player_key": "402.p.3706",
+        "player_notes_last_timestamp": 1614666343,
+        "position_type": "P",
+        "primary_position": "SF",
+        "uniform_number": "00"
+      }
+    },
+    {
+      "player": {
+        "display_position": "SG,SF",
+        "editorial_player_key": "nba.p.3754",
+        "editorial_team_abbr": "Mil",
+        "editorial_team_full_name": "Milwaukee Bucks",
+        "editorial_team_key": "nba.t.15",
+        "eligible_positions": [
+          {
+            "position": "SG"
+          },
+          {
+            "position": "G"
+          },
+          {
+            "position": "SF"
+          },
+          {
+            "position": "F"
+          },
+          {
+            "position": "Util"
+          }
+        ],
+        "headshot": {
+          "size": "small",
+          "url": "https://s.yimg.com/iu/api/res/1.2/tcNqkRYbSyEkr_SsbC15jg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/10042019/3754.png"
+        },
+        "is_undroppable": "0",
+        "name": {
+          "ascii_first": "Kyle",
+          "ascii_last": "Korver",
+          "first": "Kyle",
+          "full": "Kyle Korver",
+          "last": "Korver"
+        },
+        "player_id": "3754",
+        "player_key": "402.p.3754",
+        "position_type": "P",
+        "primary_position": "SG",
+        "status": "NA",
+        "uniform_number": "26"
+      }
+    },
+    {
+      "player": {
+        "display_position": "PF",
+        "editorial_player_key": "nba.p.3765",
+        "editorial_team_abbr": "Mia",
+        "editorial_team_full_name": "Miami Heat",
+        "editorial_team_key": "nba.t.14",
+        "eligible_positions": [
+          {
+            "position": "PF"
+          },
+          {
+            "position": "F"
+          },
+          {
+            "position": "Util"
+          }
+        ],
+        "headshot": {
+          "size": "small",
+          "url": "https://s.yimg.com/iu/api/res/1.2/nsYTRnRDuQ.tEwPt2_LWqQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/01082021/3765.png"
+        },
+        "is_undroppable": "0",
+        "name": {
+          "ascii_first": "Udonis",
+          "ascii_last": "Haslem",
+          "first": "Udonis",
+          "full": "Udonis Haslem",
+          "last": "Haslem"
+        },
+        "player_id": "3765",
+        "player_key": "402.p.3765",
+        "position_type": "P",
+        "primary_position": "PF",
+        "uniform_number": "40"
+      }
+    },
+    {
+      "player": {
+        "display_position": "C",
+        "editorial_player_key": "nba.p.3818",
+        "editorial_team_abbr": "Phi",
+        "editorial_team_full_name": "Philadelphia 76ers",
+        "editorial_team_key": "nba.t.20",
+        "eligible_positions": [
+          {
+            "position": "C"
+          },
+          {
+            "position": "Util"
+          }
+        ],
+        "has_player_notes": 1,
+        "headshot": {
+          "size": "small",
+          "url": "https://s.yimg.com/iu/api/res/1.2/m8fITW7uh6oagqY.lAvFtA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/12142020/3818.png"
+        },
+        "is_undroppable": "0",
+        "name": {
+          "ascii_first": "Dwight",
+          "ascii_last": "Howard",
+          "first": "Dwight",
+          "full": "Dwight Howard",
+          "last": "Howard"
+        },
+        "player_id": "3818",
+        "player_key": "402.p.3818",
+        "player_notes_last_timestamp": 1614307453,
+        "position_type": "P",
+        "primary_position": "C",
+        "uniform_number": "39"
+      }
+    },
+    {
+      "player": {
+        "display_position": "SG,SF",
+        "editorial_player_key": "nba.p.3826",
+        "editorial_team_abbr": "Mia",
+        "editorial_team_full_name": "Miami Heat",
+        "editorial_team_key": "nba.t.14",
+        "eligible_positions": [
+          {
+            "position": "SG"
+          },
+          {
+            "position": "G"
+          },
+          {
+            "position": "SF"
+          },
+          {
+            "position": "F"
+          },
+          {
+            "position": "Util"
+          }
+        ],
+        "has_player_notes": 1,
+        "headshot": {
+          "size": "small",
+          "url": "https://s.yimg.com/iu/api/res/1.2/t3eifYAxLv522qJfpsjnEw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/12182020/3826.png"
+        },
+        "is_undroppable": "0",
+        "name": {
+          "ascii_first": "Andre",
+          "ascii_last": "Iguodala",
+          "first": "Andre",
+          "full": "Andre Iguodala",
+          "last": "Iguodala"
+        },
+        "player_id": "3826",
+        "player_key": "402.p.3826",
+        "player_notes_last_timestamp": 1614228054,
+        "position_type": "P",
+        "primary_position": "SG",
+        "uniform_number": "28"
+      }
+    },
+    {
+      "player": {
+        "display_position": "SG,SF",
+        "editorial_player_key": "nba.p.3835",
+        "editorial_team_abbr": "LAL",
+        "editorial_team_full_name": "Los Angeles Lakers",
+        "editorial_team_key": "nba.t.13",
+        "eligible_positions": [
+          {
+            "position": "SG"
+          },
+          {
+            "position": "G"
+          },
+          {
+            "position": "SF"
+          },
+          {
+            "position": "F"
+          },
+          {
+            "position": "Util"
+          }
+        ],
+        "headshot": {
+          "size": "small",
+          "url": "https://s.yimg.com/iu/api/res/1.2/qrYtyBfsfGSTq6xNNf7Wew--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/10122018/3835.png"
+        },
+        "is_undroppable": "0",
+        "name": {
+          "ascii_first": "J.R.",
+          "ascii_last": "Smith",
+          "first": "J.R.",
+          "full": "J.R. Smith",
+          "last": "Smith"
+        },
+        "player_id": "3835",
+        "player_key": "402.p.3835",
+        "position_type": "P",
+        "primary_position": "SG",
+        "status": "NA",
+        "uniform_number": "21"
+      }
+    },
+    {
+      "player": {
+        "display_position": "SG,SF",
+        "editorial_player_key": "nba.p.3860",
+        "editorial_team_abbr": "OKC",
+        "editorial_team_full_name": "Oklahoma City Thunder",
+        "editorial_team_key": "nba.t.25",
+        "eligible_positions": [
+          {
+            "position": "SG"
+          },
+          {
+            "position": "G"
+          },
+          {
+            "position": "SF"
+          },
+          {
+            "position": "F"
+          },
+          {
+            "position": "Util"
+          },
+          {
+            "position": "IL"
+          }
+        ],
+        "headshot": {
+          "size": "small",
+          "url": "https://s.yimg.com/iu/api/res/1.2/yBOeyFExB5Lo3QDbHQVlQw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/01312020/3860.png"
+        },
+        "is_undroppable": "0",
+        "name": {
+          "ascii_first": "Trevor",
+          "ascii_last": "Ariza",
+          "first": "Trevor",
+          "full": "Trevor Ariza",
+          "last": "Ariza"
+        },
+        "player_id": "3860",
+        "player_key": "402.p.3860",
+        "position_type": "P",
+        "primary_position": "SG",
+        "status": "INJ",
+        "uniform_number": "8"
+      }
+    },
+    {
+      "player": {
+        "display_position": "SF,PF",
+        "editorial_player_key": "nba.p.3928",
+        "editorial_team_abbr": "Mil",
+        "editorial_team_full_name": "Milwaukee Bucks",
+        "editorial_team_key": "nba.t.15",
+        "eligible_positions": [
+          {
+            "position": "SF"
+          },
+          {
+            "position": "PF"
+          },
+          {
+            "position": "F"
+          },
+          {
+            "position": "Util"
+          }
+        ],
+        "headshot": {
+          "size": "small",
+          "url": "https://s.yimg.com/iu/api/res/1.2/8MKd7RN37qHZ3TCdXIdqcw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/10142019/3928.png"
+        },
+        "is_undroppable": "0",
+        "name": {
+          "ascii_first": "Marvin",
+          "ascii_last": "Williams",
+          "first": "Marvin",
+          "full": "Marvin Williams",
+          "last": "Williams"
+        },
+        "player_id": "3928",
+        "player_key": "402.p.3928",
+        "position_type": "P",
+        "primary_position": "SF",
+        "status": "NA",
+        "uniform_number": "20"
+      }
+    },
+    {
+      "player": {
+        "display_position": "PG",
+        "editorial_player_key": "nba.p.3930",
+        "editorial_team_abbr": "Pho",
+        "editorial_team_full_name": "Phoenix Suns",
+        "editorial_team_key": "nba.t.21",
+        "eligible_positions": [
+          {
+            "position": "PG"
+          },
+          {
+            "position": "G"
+          },
+          {
+            "position": "Util"
+          }
+        ],
+        "has_player_notes": 1,
+        "headshot": {
+          "size": "small",
+          "url": "https://s.yimg.com/iu/api/res/1.2/CsdWvcb4KwtVma0TBNXRvg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/12152020/3930.png"
+        },
+        "is_undroppable": "0",
+        "name": {
+          "ascii_first": "Chris",
+          "ascii_last": "Paul",
+          "first": "Chris",
+          "full": "Chris Paul",
+          "last": "Paul"
+        },
+        "player_id": "3930",
+        "player_key": "402.p.3930",
+        "player_notes_last_timestamp": 1614575848,
+        "position_type": "P",
+        "primary_position": "PG",
+        "uniform_number": "3"
+      }
+    },
+    {
+      "player": {
+        "display_position": "PG,SG",
+        "editorial_player_key": "nba.p.3931",
+        "editorial_team_abbr": "OKC",
+        "editorial_team_full_name": "Oklahoma City Thunder",
+        "editorial_team_key": "nba.t.25",
+        "eligible_positions": [
+          {
+            "position": "PG"
+          },
+          {
+            "position": "SG"
+          },
+          {
+            "position": "G"
+          },
+          {
+            "position": "Util"
+          }
+        ],
+        "headshot": {
+          "size": "small",
+          "url": "https://s.yimg.com/iu/api/res/1.2/yPcsEBlHYvIJA9LSJwXmIw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/10142019/3931.png"
+        },
+        "is_undroppable": "0",
+        "name": {
+          "ascii_first": "Raymond",
+          "ascii_last": "Felton",
+          "first": "Raymond",
+          "full": "Raymond Felton",
+          "last": "Felton"
+        },
+        "player_id": "3931",
+        "player_key": "402.p.3931",
+        "position_type": "P",
+        "primary_position": "PG",
+        "status": "NA",
+        "uniform_number": "2"
+      }
+    },
+    {
+      "player": {
+        "display_position": "SG,SF",
+        "editorial_player_key": "nba.p.3944",
+        "editorial_team_abbr": "Hou",
+        "editorial_team_full_name": "Houston Rockets",
+        "editorial_team_key": "nba.t.10",
+        "eligible_positions": [
+          {
+            "position": "SG"
+          },
+          {
+            "position": "G"
+          },
+          {
+            "position": "SF"
+          },
+          {
+            "position": "F"
+          },
+          {
+            "position": "Util"
+          }
+        ],
+        "headshot": {
+          "size": "small",
+          "url": "https://s.yimg.com/iu/api/res/1.2/UOcjiiXlIlkpYb8hOUP2dg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/10112019/3944.png"
+        },
+        "is_undroppable": "0",
+        "name": {
+          "ascii_first": "Gerald",
+          "ascii_last": "Green",
+          "first": "Gerald",
+          "full": "Gerald Green",
+          "last": "Green"
+        },
+        "player_id": "3944",
+        "player_key": "402.p.3944",
+        "position_type": "P",
+        "primary_position": "SG",
+        "status": "NA",
+        "uniform_number": "14"
+      }
+    },
+    {
+      "player": {
+        "display_position": "C",
+        "editorial_player_key": "nba.p.3954",
+        "editorial_team_abbr": "Was",
+        "editorial_team_full_name": "Washington Wizards",
+        "editorial_team_key": "nba.t.27",
+        "eligible_positions": [
+          {
+            "position": "C"
+          },
+          {
+            "position": "Util"
+          }
+        ],
+        "headshot": {
+          "size": "small",
+          "url": "https://s.yimg.com/iu/api/res/1.2/IRTuycm0Gtt1iGSdz3b8XA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/10142019/3954.png"
+        },
+        "is_undroppable": "0",
+        "name": {
+          "ascii_first": "Ian",
+          "ascii_last": "Mahinmi",
+          "first": "Ian",
+          "full": "Ian Mahinmi",
+          "last": "Mahinmi"
+        },
+        "player_id": "3954",
+        "player_key": "402.p.3954",
+        "position_type": "P",
+        "primary_position": "C",
+        "status": "NA",
+        "uniform_number": "28"
+      }
+    },
+    {
+      "player": {
+        "display_position": "SF,PF",
+        "editorial_player_key": "nba.p.3962",
+        "editorial_team_abbr": "Mil",
+        "editorial_team_full_name": "Milwaukee Bucks",
+        "editorial_team_key": "nba.t.15",
+        "eligible_positions": [
+          {
+            "position": "SF"
+          },
+          {
+            "position": "PF"
+          },
+          {
+            "position": "F"
+          },
+          {
+            "position": "Util"
+          }
+        ],
+        "headshot": {
+          "size": "small",
+          "url": "https://s.yimg.com/iu/api/res/1.2/UXsIe4.5bPUxZC0tAATWTg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/10102019/3962.png"
+        },
+        "is_undroppable": "0",
+        "name": {
+          "ascii_first": "Ersan",
+          "ascii_last": "Ilyasova",
+          "first": "Ersan",
+          "full": "Ersan Ilyasova",
+          "last": "Ilyasova"
+        },
+        "player_id": "3962",
+        "player_key": "402.p.3962",
+        "position_type": "P",
+        "primary_position": "SF",
+        "status": "NA",
+        "uniform_number": "7"
+      }
+    },
+    {
+      "player": {
+        "display_position": "PG,SG",
+        "editorial_player_key": "nba.p.3971",
+        "editorial_team_abbr": "LAC",
+        "editorial_team_full_name": "Los Angeles Clippers",
+        "editorial_team_key": "nba.t.12",
+        "eligible_positions": [
+          {
+            "position": "PG"
+          },
+          {
+            "position": "SG"
+          },
+          {
+            "position": "G"
+          },
+          {
+            "position": "Util"
+          }
+        ],
+        "has_player_notes": 1,
+        "headshot": {
+          "size": "small",
+          "url": "https://s.yimg.com/iu/api/res/1.2/XCsQLMKfUWKM556c2zHreQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/01052021/3971.png"
+        },
+        "is_undroppable": "0",
+        "name": {
+          "ascii_first": "Lou",
+          "ascii_last": "Williams",
+          "first": "Lou",
+          "full": "Lou Williams",
+          "last": "Williams"
+        },
+        "player_id": "3971",
+        "player_key": "402.p.3971",
+        "player_notes_last_timestamp": 1614556743,
+        "position_type": "P",
+        "primary_position": "PG",
+        "uniform_number": "23"
+      }
+    },
+    {
+      "player": {
+        "display_position": "PF,C",
+        "editorial_player_key": "nba.p.4130",
+        "editorial_team_abbr": "SA",
+        "editorial_team_full_name": "San Antonio Spurs",
+        "editorial_team_key": "nba.t.24",
+        "eligible_positions": [
+          {
+            "position": "PF"
+          },
+          {
+            "position": "F"
+          },
+          {
+            "position": "C"
+          },
+          {
+            "position": "Util"
+          }
+        ],
+        "has_player_notes": 1,
+        "headshot": {
+          "size": "small",
+          "url": "https://s.yimg.com/iu/api/res/1.2/n51.1S15UcgDufUnYe.9ug--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/01112021/4130.png"
+        },
+        "is_undroppable": "0",
+        "name": {
+          "ascii_first": "LaMarcus",
+          "ascii_last": "Aldridge",
+          "first": "LaMarcus",
+          "full": "LaMarcus Aldridge",
+          "last": "Aldridge"
+        },
+        "player_id": "4130",
+        "player_key": "402.p.4130",
+        "player_notes_last_timestamp": 1614711730,
+        "position_type": "P",
+        "primary_position": "PF",
+        "status": "O",
+        "uniform_number": "12"
+      }
+    },
+    {
+      "player": {
+        "display_position": "SF,PF",
+        "editorial_player_key": "nba.p.4136",
+        "editorial_team_abbr": "SA",
+        "editorial_team_full_name": "San Antonio Spurs",
+        "editorial_team_key": "nba.t.24",
+        "eligible_positions": [
+          {
+            "position": "SF"
+          },
+          {
+            "position": "PF"
+          },
+          {
+            "position": "F"
+          },
+          {
+            "position": "Util"
+          },
+          {
+            "position": "IL"
+          }
+        ],
+        "has_player_notes": 1,
+        "headshot": {
+          "size": "small",
+          "url": "https://s.yimg.com/iu/api/res/1.2/KXyzAN7gtAFv0cRZvNQ2IQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/01112021/4136.png"
+        },
+        "is_undroppable": "0",
+        "name": {
+          "ascii_first": "Rudy",
+          "ascii_last": "Gay",
+          "first": "Rudy",
+          "full": "Rudy Gay",
+          "last": "Gay"
+        },
+        "player_id": "4136",
+        "player_key": "402.p.4136",
+        "player_notes_last_timestamp": 1614557968,
+        "position_type": "P",
+        "primary_position": "SF",
+        "status": "INJ",
+        "uniform_number": "22"
+      }
+    },
+    {
+      "player": {
+        "display_position": "SG",
+        "editorial_player_key": "nba.p.4139",
+        "editorial_team_abbr": "NO",
+        "editorial_team_full_name": "New Orleans Pelicans",
+        "editorial_team_key": "nba.t.3",
+        "eligible_positions": [
+          {
+            "position": "SG"
+          },
+          {
+            "position": "G"
+          },
+          {
+            "position": "Util"
+          }
+        ],
+        "has_player_notes": 1,
+        "headshot": {
+          "size": "small",
+          "url": "https://s.yimg.com/iu/api/res/1.2/ZONtDDFlpyAzxWd4rGlOSQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/01142021/4139.png"
+        },
+        "is_undroppable": "0",
+        "name": {
+          "ascii_first": "JJ",
+          "ascii_last": "Redick",
+          "first": "JJ",
+          "full": "JJ Redick",
+          "last": "Redick"
+        },
+        "player_id": "4139",
+        "player_key": "402.p.4139",
+        "player_notes_last_timestamp": 1614659443,
+        "position_type": "P",
+        "primary_position": "SG",
+        "uniform_number": "4"
+      }
+    },
+    {
+      "player": {
+        "display_position": "SG,SF",
+        "editorial_player_key": "nba.p.4141",
+        "editorial_team_abbr": "Hou",
+        "editorial_team_full_name": "Houston Rockets",
+        "editorial_team_key": "nba.t.10",
+        "eligible_positions": [
+          {
+            "position": "SG"
+          },
+          {
+            "position": "G"
+          },
+          {
+            "position": "SF"
+          },
+          {
+            "position": "F"
+          },
+          {
+            "position": "Util"
+          }
+        ],
+        "headshot": {
+          "size": "small",
+          "url": "https://s.yimg.com/iu/api/res/1.2/_ddfgjEh8gpV8.9zMLjMxA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/12182020/4141.png"
+        },
+        "is_undroppable": "0",
+        "name": {
+          "ascii_first": "Thabo",
+          "ascii_last": "Sefolosha",
+          "first": "Thabo",
+          "full": "Thabo Sefolosha",
+          "last": "Sefolosha"
+        },
+        "player_id": "4141",
+        "player_key": "402.p.4141",
+        "position_type": "P",
+        "primary_position": "SG",
+        "status": "NA",
+        "uniform_number": "18"
+      }
+    },
+    {
+      "player": {
+        "display_position": "PG",
+        "editorial_player_key": "nba.p.4149",
+        "editorial_team_abbr": "Atl",
+        "editorial_team_full_name": "Atlanta Hawks",
+        "editorial_team_key": "nba.t.1",
+        "eligible_positions": [
+          {
+            "position": "PG"
+          },
+          {
+            "position": "G"
+          },
+          {
+            "position": "Util"
+          }
+        ],
+        "has_player_notes": 1,
+        "headshot": {
+          "size": "small",
+          "url": "https://s.yimg.com/iu/api/res/1.2/EtpQxvFvKOv8Ulgv1i5DYQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nba_cutout/players_l/12232020/4149.png"
+        },
+        "is_undroppable": "0",
+        "name": {
+          "ascii_first": "Rajon",
+          "ascii_last": "Rondo",
+          "first": "Rajon",
+          "full": "Rajon Rondo",
+          "last": "Rondo"
+        },
+        "player_id": "4149",
+        "player_key": "402.p.4149",
+        "player_notes_last_timestamp": 1614403761,
+        "position_type": "P",
+        "primary_position": "PG",
+        "uniform_number": "7"
+      }
+    }
+  ],
+  "renew": null,
+  "renewed": null,
+  "scoreboard": {
+    "week": 11,
+    "matchups": [
+      {
+        "matchup": {
+          "is_consolation": "0",
+          "is_playoffs": "0",
+          "status": "midevent",
+          "teams": [
+            {
+              "team": {
+                "clinched_playoffs": 1,
+                "draft_position": 1,
+                "has_draft_grade": 0,
+                "league_scoring_type": "head",
+                "managers": {
+                  "manager": {
+                    "email": "timpryor91@gmail.com",
+                    "guid": "5XRMVK4GCZ35DUBOZ2ZF42QOIU",
+                    "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+                    "manager_id": "1",
+                    "nickname": "Tim"
+                  }
+                },
+                "name": "Tim's Top-Notch Team",
+                "number_of_moves": 0,
+                "number_of_trades": 0,
+                "roster_adds": {
+                  "coverage_type": "week",
+                  "coverage_value": 11,
+                  "value": "0"
+                },
+                "team_id": "1",
+                "team_key": "402.l.254983.t.1",
+                "team_logos": {
+                  "team_logo": {
+                    "size": "large",
+                    "url": "https://s.yimg.com/cv/apiv2/default/nba/nba_11_t.png"
+                  }
+                },
+                "team_points": {
+                  "coverage_type": "week",
+                  "total": "3",
+                  "week": "11"
+                },
+                "url": "https://basketball.fantasysports.yahoo.com/nba/254983/1",
+                "waiver_priority": 4
+              }
+            },
+            {
+              "team": {
+                "clinched_playoffs": 1,
+                "draft_position": 2,
+                "has_draft_grade": 0,
+                "league_scoring_type": "head",
+                "managers": {
+                  "manager": {
+                    "email": "apeplowball@gmail.com",
+                    "guid": "OLPW44H46PAJOS36AMVI44PRGY",
+                    "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+                    "manager_id": "3",
+                    "nickname": "Ashleigh"
+                  }
+                },
+                "name": "Ashleigh's Team",
+                "number_of_moves": 0,
+                "number_of_trades": 0,
+                "roster_adds": {
+                  "coverage_type": "week",
+                  "coverage_value": 11,
+                  "value": "0"
+                },
+                "team_id": "3",
+                "team_key": "402.l.254983.t.3",
+                "team_logos": {
+                  "team_logo": {
+                    "size": "large",
+                    "url": "https://s.yimg.com/cv/apiv2/default/nba/nba_6_a.png"
+                  }
+                },
+                "team_points": {
+                  "coverage_type": "week",
+                  "total": "6",
+                  "week": "11"
+                },
+                "url": "https://basketball.fantasysports.yahoo.com/nba/254983/3",
+                "waiver_priority": 3
+              }
+            }
+          ],
+          "week": "11",
+          "week_end": "2021-03-14",
+          "week_start": "2021-03-01"
+        }
+      },
+      {
+        "matchup": {
+          "is_consolation": "0",
+          "is_playoffs": "0",
+          "status": "midevent",
+          "teams": [
+            {
+              "team": {
+                "clinched_playoffs": 1,
+                "draft_position": 4,
+                "has_draft_grade": 0,
+                "league_scoring_type": "head",
+                "managers": {
+                  "manager": {
+                    "email": "fergus.kinnaird@gmail.com",
+                    "guid": "QCYNNN4XINE55VWXZ5LPZFLMTI",
+                    "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+                    "manager_id": "2",
+                    "nickname": "Fergus"
+                  }
+                },
+                "name": "Fergus's Team",
+                "number_of_moves": 0,
+                "number_of_trades": 0,
+                "roster_adds": {
+                  "coverage_type": "week",
+                  "coverage_value": 11,
+                  "value": "0"
+                },
+                "team_id": "2",
+                "team_key": "402.l.254983.t.2",
+                "team_logos": {
+                  "team_logo": {
+                    "size": "large",
+                    "url": "https://s.yimg.com/cv/apiv2/default/nba/nba_9_f.png"
+                  }
+                },
+                "team_points": {
+                  "coverage_type": "week",
+                  "total": "7",
+                  "week": "11"
+                },
+                "url": "https://basketball.fantasysports.yahoo.com/nba/254983/2",
+                "waiver_priority": 1
+              }
+            },
+            {
+              "team": {
+                "clinched_playoffs": 1,
+                "draft_position": 3,
+                "has_draft_grade": 0,
+                "league_scoring_type": "head",
+                "managers": {
+                  "manager": {
+                    "email": "jackiehwang92@gmail.com",
+                    "guid": "LBRIGSFIPB4LHIKTIL5OZX6CLI",
+                    "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+                    "manager_id": "4",
+                    "nickname": "Jackie"
+                  }
+                },
+                "name": "Jackie's Team",
+                "number_of_moves": 0,
+                "number_of_trades": 0,
+                "roster_adds": {
+                  "coverage_type": "week",
+                  "coverage_value": 11,
+                  "value": "0"
+                },
+                "team_id": "4",
+                "team_key": "402.l.254983.t.4",
+                "team_logos": {
+                  "team_logo": {
+                    "size": "large",
+                    "url": "https://s.yimg.com/cv/apiv2/default/nba/nba_4_j.png"
+                  }
+                },
+                "team_points": {
+                  "coverage_type": "week",
+                  "total": "0",
+                  "week": "11"
+                },
+                "url": "https://basketball.fantasysports.yahoo.com/nba/254983/4",
+                "waiver_priority": 2
+              }
+            }
+          ],
+          "week": "11",
+          "week_end": "2021-03-14",
+          "week_start": "2021-03-01"
+        }
+      }
+    ]
+  },
+  "scoring_type": "head",
+  "season": "2020",
+  "settings": {
+    "cant_cut_list": "yahoo",
+    "draft_pick_time": "60",
+    "draft_time": "1614056406",
+    "draft_type": "auto",
+    "has_multiweek_championship": 0,
+    "has_playoff_consolation_games": false,
+    "is_auction_draft": "0",
+    "max_teams": "12",
+    "num_playoff_consolation_teams": 4,
+    "num_playoff_teams": "4",
+    "player_pool": "ALL",
+    "playoff_start_week": "19",
+    "post_draft_players": "W",
+    "roster_positions": [
+      {
+        "roster_position": {
+          "count": 1,
+          "position": "PG",
+          "position_type": "P"
+        }
+      },
+      {
+        "roster_position": {
+          "count": 1,
+          "position": "SG",
+          "position_type": "P"
+        }
+      },
+      {
+        "roster_position": {
+          "count": 1,
+          "position": "G",
+          "position_type": "P"
+        }
+      },
+      {
+        "roster_position": {
+          "count": 1,
+          "position": "SF",
+          "position_type": "P"
+        }
+      },
+      {
+        "roster_position": {
+          "count": 1,
+          "position": "PF",
+          "position_type": "P"
+        }
+      },
+      {
+        "roster_position": {
+          "count": 1,
+          "position": "F",
+          "position_type": "P"
+        }
+      },
+      {
+        "roster_position": {
+          "count": 2,
+          "position": "C",
+          "position_type": "P"
+        }
+      },
+      {
+        "roster_position": {
+          "count": 2,
+          "position": "Util",
+          "position_type": "P"
+        }
+      },
+      {
+        "roster_position": {
+          "count": 3,
+          "position": "BN"
+        }
+      },
+      {
+        "roster_position": {
+          "count": "3",
+          "position": "IL"
+        }
+      }
+    ],
+    "scoring_type": "head",
+    "stat_categories": {
+      "stats": [
+        {
+          "stat": {
+            "display_name": "FGM/A",
+            "enabled": "1",
+            "name": "Field Goals Made / Field Goals Attempted",
+            "position_type": "P",
+            "sort_order": "1",
+            "stat_id": 9004003,
+            "stat_position_types": {
+              "stat_position_type": {
+                "is_only_display_stat": "1",
+                "position_type": "P"
+              }
+            }
+          }
+        },
+        {
+          "stat": {
+            "display_name": "FG%",
+            "enabled": "1",
+            "name": "Field Goal Percentage",
+            "position_type": "P",
+            "sort_order": "1",
+            "stat_id": 5,
+            "stat_position_types": {
+              "stat_position_type": {
+                "position_type": "P"
+              }
+            }
+          }
+        },
+        {
+          "stat": {
+            "display_name": "FTM/A",
+            "enabled": "1",
+            "name": "Free Throws Made / Free Throws Attempted",
+            "position_type": "P",
+            "sort_order": "1",
+            "stat_id": 9007006,
+            "stat_position_types": {
+              "stat_position_type": {
+                "is_only_display_stat": "1",
+                "position_type": "P"
+              }
+            }
+          }
+        },
+        {
+          "stat": {
+            "display_name": "FT%",
+            "enabled": "1",
+            "name": "Free Throw Percentage",
+            "position_type": "P",
+            "sort_order": "1",
+            "stat_id": 8,
+            "stat_position_types": {
+              "stat_position_type": {
+                "position_type": "P"
+              }
+            }
+          }
+        },
+        {
+          "stat": {
+            "display_name": "3PTM",
+            "enabled": "1",
+            "name": "3-point Shots Made",
+            "position_type": "P",
+            "sort_order": "1",
+            "stat_id": 10,
+            "stat_position_types": {
+              "stat_position_type": {
+                "position_type": "P"
+              }
+            }
+          }
+        },
+        {
+          "stat": {
+            "display_name": "PTS",
+            "enabled": "1",
+            "name": "Points Scored",
+            "position_type": "P",
+            "sort_order": "1",
+            "stat_id": 12,
+            "stat_position_types": {
+              "stat_position_type": {
+                "position_type": "P"
+              }
+            }
+          }
+        },
+        {
+          "stat": {
+            "display_name": "REB",
+            "enabled": "1",
+            "name": "Total Rebounds",
+            "position_type": "P",
+            "sort_order": "1",
+            "stat_id": 15,
+            "stat_position_types": {
+              "stat_position_type": {
+                "position_type": "P"
+              }
+            }
+          }
+        },
+        {
+          "stat": {
+            "display_name": "AST",
+            "enabled": "1",
+            "name": "Assists",
+            "position_type": "P",
+            "sort_order": "1",
+            "stat_id": 16,
+            "stat_position_types": {
+              "stat_position_type": {
+                "position_type": "P"
+              }
+            }
+          }
+        },
+        {
+          "stat": {
+            "display_name": "ST",
+            "enabled": "1",
+            "name": "Steals",
+            "position_type": "P",
+            "sort_order": "1",
+            "stat_id": 17,
+            "stat_position_types": {
+              "stat_position_type": {
+                "position_type": "P"
+              }
+            }
+          }
+        },
+        {
+          "stat": {
+            "display_name": "BLK",
+            "enabled": "1",
+            "name": "Blocked Shots",
+            "position_type": "P",
+            "sort_order": "1",
+            "stat_id": 18,
+            "stat_position_types": {
+              "stat_position_type": {
+                "position_type": "P"
+              }
+            }
+          }
+        },
+        {
+          "stat": {
+            "display_name": "TO",
+            "enabled": "1",
+            "name": "Turnovers",
+            "position_type": "P",
+            "sort_order": "0",
+            "stat_id": 19,
+            "stat_position_types": {
+              "stat_position_type": {
+                "position_type": "P"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "trade_end_date": "2021-03-26",
+    "trade_ratify_type": "vote",
+    "trade_reject_time": "2",
+    "uses_faab": "0",
+    "uses_lock_eliminated_teams": 1,
+    "uses_playoff": "1",
+    "uses_playoff_reseeding": 1,
+    "waiver_rule": "all",
+    "waiver_time": "2",
+    "waiver_type": "R"
+  },
+  "short_invitation_url": "https://basketball.fantasysports.yahoo.com/nba/254983/invitation?key=7e1cbd7bf30d776a&ikey=13c69d11222bec3f",
+  "standings": {
+    "teams": [
+      {
+        "team": {
+          "clinched_playoffs": 1,
+          "draft_position": 1,
+          "has_draft_grade": 0,
+          "league_scoring_type": "head",
+          "managers": {
+            "manager": {
+              "email": "timpryor91@gmail.com",
+              "guid": "5XRMVK4GCZ35DUBOZ2ZF42QOIU",
+              "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+              "manager_id": "1",
+              "nickname": "Tim"
+            }
+          },
+          "name": "Tim's Top-Notch Team",
+          "number_of_moves": 0,
+          "number_of_trades": 0,
+          "roster_adds": {
+            "coverage_type": "week",
+            "coverage_value": 11,
+            "value": "0"
+          },
+          "team_id": "1",
+          "team_key": "402.l.254983.t.1",
+          "team_logos": {
+            "team_logo": {
+              "size": "large",
+              "url": "https://s.yimg.com/cv/apiv2/default/nba/nba_11_t.png"
+            }
+          },
+          "team_points": {
+            "coverage_type": "season",
+            "season": "2020",
+            "total": null
+          },
+          "team_standings": {
+            "outcome_totals": {
+              "losses": 0,
+              "percentage": 0.0,
+              "ties": 0,
+              "wins": 0
+            },
+            "playoff_seed": "1",
+            "rank": "1"
+          },
+          "url": "https://basketball.fantasysports.yahoo.com/nba/254983/1",
+          "waiver_priority": 4
+        }
+      },
+      {
+        "team": {
+          "clinched_playoffs": 1,
+          "draft_position": 4,
+          "has_draft_grade": 0,
+          "league_scoring_type": "head",
+          "managers": {
+            "manager": {
+              "email": "fergus.kinnaird@gmail.com",
+              "guid": "QCYNNN4XINE55VWXZ5LPZFLMTI",
+              "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+              "manager_id": "2",
+              "nickname": "Fergus"
+            }
+          },
+          "name": "Fergus's Team",
+          "number_of_moves": 0,
+          "number_of_trades": 0,
+          "roster_adds": {
+            "coverage_type": "week",
+            "coverage_value": 11,
+            "value": "0"
+          },
+          "team_id": "2",
+          "team_key": "402.l.254983.t.2",
+          "team_logos": {
+            "team_logo": {
+              "size": "large",
+              "url": "https://s.yimg.com/cv/apiv2/default/nba/nba_9_f.png"
+            }
+          },
+          "team_points": {
+            "coverage_type": "season",
+            "season": "2020",
+            "total": null
+          },
+          "team_standings": {
+            "outcome_totals": {
+              "losses": 0,
+              "percentage": 0.0,
+              "ties": 0,
+              "wins": 0
+            },
+            "playoff_seed": "2",
+            "rank": "2"
+          },
+          "url": "https://basketball.fantasysports.yahoo.com/nba/254983/2",
+          "waiver_priority": 1
+        }
+      },
+      {
+        "team": {
+          "clinched_playoffs": 1,
+          "draft_position": 2,
+          "has_draft_grade": 0,
+          "league_scoring_type": "head",
+          "managers": {
+            "manager": {
+              "email": "apeplowball@gmail.com",
+              "guid": "OLPW44H46PAJOS36AMVI44PRGY",
+              "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+              "manager_id": "3",
+              "nickname": "Ashleigh"
+            }
+          },
+          "name": "Ashleigh's Team",
+          "number_of_moves": 0,
+          "number_of_trades": 0,
+          "roster_adds": {
+            "coverage_type": "week",
+            "coverage_value": 11,
+            "value": "0"
+          },
+          "team_id": "3",
+          "team_key": "402.l.254983.t.3",
+          "team_logos": {
+            "team_logo": {
+              "size": "large",
+              "url": "https://s.yimg.com/cv/apiv2/default/nba/nba_6_a.png"
+            }
+          },
+          "team_points": {
+            "coverage_type": "season",
+            "season": "2020",
+            "total": null
+          },
+          "team_standings": {
+            "outcome_totals": {
+              "losses": 0,
+              "percentage": 0.0,
+              "ties": 0,
+              "wins": 0
+            },
+            "playoff_seed": "3",
+            "rank": "3"
+          },
+          "url": "https://basketball.fantasysports.yahoo.com/nba/254983/3",
+          "waiver_priority": 3
+        }
+      },
+      {
+        "team": {
+          "clinched_playoffs": 1,
+          "draft_position": 3,
+          "has_draft_grade": 0,
+          "league_scoring_type": "head",
+          "managers": {
+            "manager": {
+              "email": "jackiehwang92@gmail.com",
+              "guid": "LBRIGSFIPB4LHIKTIL5OZX6CLI",
+              "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+              "manager_id": "4",
+              "nickname": "Jackie"
+            }
+          },
+          "name": "Jackie's Team",
+          "number_of_moves": 0,
+          "number_of_trades": 0,
+          "roster_adds": {
+            "coverage_type": "week",
+            "coverage_value": 11,
+            "value": "0"
+          },
+          "team_id": "4",
+          "team_key": "402.l.254983.t.4",
+          "team_logos": {
+            "team_logo": {
+              "size": "large",
+              "url": "https://s.yimg.com/cv/apiv2/default/nba/nba_4_j.png"
+            }
+          },
+          "team_points": {
+            "coverage_type": "season",
+            "season": "2020",
+            "total": null
+          },
+          "team_standings": {
+            "outcome_totals": {
+              "losses": 0,
+              "percentage": 0.0,
+              "ties": 0,
+              "wins": 0
+            },
+            "playoff_seed": "4",
+            "rank": "4"
+          },
+          "url": "https://basketball.fantasysports.yahoo.com/nba/254983/4",
+          "waiver_priority": 2
+        }
+      }
+    ]
+  },
+  "start_date": "2021-03-01",
+  "start_week": "11",
+  "transactions": {
+    "transaction": {
+      "status": "successful",
+      "timestamp": "1614014041",
+      "transaction_id": "1",
+      "transaction_key": "402.l.254983.tr.1",
+      "type": "commish"
+    }
+  },
+  "url": "https://basketball.fantasysports.yahoo.com/nba/254983",
+  "weekly_deadline": "intraday"
+}
