@@ -6,10 +6,12 @@
 from classes.player_class import Player
 from classes.team_class import NBAteam
 
-from yfpy.query import YahooFantasySportsQuery
+from nba_api.stats import endpoints as nba_api_endpoints
+from nba_api.stats.static import players as nba_api_players
 import json
 from datetime import datetime
 from datetime import timedelta
+import operator
 
 class Matchup(object):
     """
@@ -24,7 +26,9 @@ class Matchup(object):
             date (string): the date that the player needs to be streamed on, the tool should be run on the morning before streaming
             user_team_name (string): the name of the users team
             yahoo_query (YahooFantasySportsQuery): A Yahoo fantasy sports query object that can be used to retrieve all data from Yahoo fantasy
-
+            game_id (string): the id of the fantasy game, currently 402 for the 2020,2021 NBA season, can be found using the yfpy 
+                              get_all_yahoo_fantasy_game_keys() function
+        
         """
         self.date = date
         self.user_team_name = user_team_name
@@ -40,9 +44,6 @@ class Matchup(object):
             
         Returns
             end_date (string): the last day of the matchup
-            start_date (string): the first day of the matchup
-            day_remaining (integer): the number of days remaining in the matchup
-            current_Week (string): the current league week number
             
         """        
         self.schedule_weeks = self.yahoo_query.get_game_weeks_by_game_id(self.game_id)
@@ -64,7 +65,7 @@ class Matchup(object):
             None
             
         Returns:
-            user_team_id: the id of the user's team
+            user_team_id (string): the id of the user's team
         
         """
         self.info_json = (json.loads(str(self.yahoo_query.get_league_info())))
@@ -114,68 +115,25 @@ class Matchup(object):
         Determines the scoring categories for the matchup
         
         Returns:
-            category_list (List<integer): the scoring categories for the matchup
+            category_list (List<string>): the scoring categories for the matchup
 
         """        
         self.league_info_json = (json.loads(str(self.yahoo_query.get_league_info())))
         self.category_list = []
         for key in self.league_info_json["settings"]["stat_categories"]["stats"]:
+            if key["stat"]["display_name"] == "FGM/A" or key["stat"]["display_name"] == "FTM/A":
+                continue
             self.category_list.append((key["stat"]["display_name"]))
             
         return(self.category_list)
-    
-    def get_nba_team_abbr(self, nba_team_name):
-        """
-        Find the team abbreviation associated with an NBA team name
-        
-        Parameters:
-            nba_team_name (string): The full name of an NBA team, consistent with yahoo fantasy library
-        
-        Returns:
-            nba_team_abbr (string): The abbreviation of the NBA team, consistent with sportsipy library
-        
-        """
-        self.nba_abbr_dict = {
-                        "Atlanta Hawks":'ATL',
-                        "Brooklyn Nets":'BRK',
-                        "Boston Celtics":'BOS',
-                        "Charlotte Hornets":'CHO',
-                        "Chicago Bulls":'CHI',
-                        "Cleveland Cavaliers":'CLE',
-                        "Dallas Mavericks":'DAL',
-                        "Denver Nuggets":'DEN',
-                        "Detroit Pistons":'DET',
-                        "Golden State Warriors":'GSW',
-                        "Houston Rockets":'HOU',
-                        "Indiana Pacers":'IND',
-                        "Los Angeles Clippers":'LAC',
-                        "Los Angeles Lakers":'LAL',
-                        "Memphis Grizzlies":'MEM',
-                        "Miami Heat":'MIA',
-                        "Milwaukee Bucks":'MIL',
-                        "Minnesota Timberwolves":'MIN',
-                        "New Orleans Pelicans":'NOP',
-                        "New York Knicks":'NYK',
-                        "Oklahoma City Thunder":'OKC',
-                        "Orlando Magic":'ORL',
-                        "Philadelphia 76ers":'PHI',
-                        "Phoenix Suns":'PHO',
-                        "Portland Trail Blazers":'POR',
-                        "Sacramento Kings":'SAC',
-                        "San Antonio Spurs":'SAS',
-                        "Toronto Raptors":'TOR',
-                        "Utah Jazz":'UTA',
-                        "Washington Wizards":'WAS'            
-                        } 
-        self.nba_team_abbr = self.nba_abbr_dict[nba_team_name]
-        return(self.nba_team_abbr) 
-           
+               
     def get_nba_teams(self, date, end_date):  
         """
         Creates a list of nba team objects, containing all teams in the league
         
         Parameters:
-            None
+            date (string): the date that the player needs to be streamed on, the tool should be run on the morning before streaming (YY-MM-DD)
+            end_date (string): the last day of the matchup (YY-MM-DD)
         
         Returns:
             nba_teams (Dict<string:NBAteam>): A dictionary of NBA team objects, with team names and schedules associated with them
@@ -215,60 +173,113 @@ class Matchup(object):
                     }
         
         return(self.nba_teams)
-    
-    
-    def get_stat_id_dict(self):
+       
+    def get_league_players(self):
         """
-        Creates a dictionary that maps stat ids to stat names, needed for referencing purposes between different stat functions
-        
-        Parameters:
-            None
+        Creates a list of all active players, using data from the nba_api
         
         Returns:
-            stat_id_dict (Dict<string:string>): a dictionary with stat IDs as keys, stat display names as values
+            league_players (List<Player>): a list of all players in the league
         
         """
-        self.stat_id_dict = {}
-        self.stat_categories = (json.loads(str(self.yahoo_query.get_game_stat_categories_by_game_id(self.game_id))))
+        self.player_list = []
+        self.player_name_list = []
+        # Find nba_api player IDs for each player in the league (these IDs are different than yahoo fantasy IDs)
+        for player in nba_api_players.get_active_players():
+                self.player_name_list.append([player["full_name"],
+                                          nba_api_players.find_players_by_full_name(player["full_name"])[0]["id"]])
+      
+        for player in self.player_name_list:
+                    
+            # Look up fantasy profile for player
+            # nba_api calls can be unrealiable, so use exceptions to prevent code from crashing if a query fails
+            try:
+                self.player_profile = nba_api_endpoints.playerfantasyprofile.PlayerFantasyProfile(player[1])             
+            except Exception:
+                continue
 
-        for stat in self.stat_categories["stats"]:
-            self.stat_id_dict[str(stat["stat"]["stat_id"])] = stat["stat"]["display_name"]
-        
-        return(self.stat_id_dict)
+            # Only add players who have at least played one game
+            if (len(self.player_profile.get_dict()["resultSets"][0]["rowSet"]) != 0):
+                # Find player's nba team
+                try:
+                    self.nba_team = nba_api_endpoints.playerprofilev2.PlayerProfileV2(player[1]).get_dict()["resultSets"][0]["rowSet"][-1][4]
+                except Exception:
+                    continue
+                    
+                # Create stat dictionary for player
+                self.player_stat_list = self.player_profile.get_dict()["resultSets"][0]["rowSet"][0]    
+                self.player_stat_dict = {
+                                    "GP": float(self.player_stat_list[2]),
+                                    "FG%": float(self.player_stat_list[9]),
+                                    "FT%": float(self.player_stat_list[15]),
+                                    "3PTM": float(self.player_stat_list[10])/float(self.player_stat_list[2]),
+                                    "PTS": float(self.player_stat_list[26])/float(self.player_stat_list[2]),
+                                    "REB": float(self.player_stat_list[18])/float(self.player_stat_list[2]),
+                                    "AST": float(self.player_stat_list[19])/float(self.player_stat_list[2]),
+                                    "TO": float(self.player_stat_list[20])/float(self.player_stat_list[2]),
+                                    "ST": float(self.player_stat_list[21])/float(self.player_stat_list[2]),
+                                    "BLK": float(self.player_stat_list[22])/float(self.player_stat_list[2]),
+                                    "DD": float(self.player_stat_list[28])/float(self.player_stat_list[2]),
+                                    "TD": float(self.player_stat_list[29])/float(self.player_stat_list[2])
+                                    }
+                
+                # Infer if the player is injured by checking their most recent game, to avoid suggestions who are on the IR
+                try:
+                    self.recent_game = nba_api_endpoints.playergamelog.PlayerGameLog(player[1]).get_dict()["resultSets"][0]["rowSet"][0][3]
+                    if (datetime.strptime(self.recent_game, "%b %d, %Y") + timedelta(days = 7)) < datetime.now():
+                        self.is_injured = True
+                    else:
+                        self.is_injured = False
+                except Exception:
+                    self.is_injured = False
+                    pass
+ 
+                # Initiate player object to add into league player list
+                self.player_list.append(Player(player[0],
+                                               None,
+                                               self.nba_team,
+                                               None,
+                                               None,
+                                               self.player_stat_dict,
+                                               self.is_injured))
+        return(self.player_list)
     
-    def get_team_roster(self, team_id, category_list, stat_id_dict):
+    def get_team_roster(self, team_id, league_players):
         """
         Determines the roster of a team
+        
+        Parameters:
+            team_id (string): the id of the team of interest
+            league_players (List<Player>): a list of all players in the league
         
         Returns:
             team_roster (List<Player>): a list with all the players on a team
 
         """ 
         self.team_id = team_id
-        self.category_list = category_list
-        self.stat_id_dict = stat_id_dict
         self.team_roster = []
+        self.league_players = league_players
         self.team_info_json = (json.loads(str(self.yahoo_query.get_team_info(self.team_id))))
         
         for player in self.team_info_json["roster"]["players"]:
             self.player_name = player["player"]["name"]["full"]
             self.player_id = player["player"]["player_id"]
-            self.nba_team = self.get_nba_team_abbr(player["player"]["editorial_team_full_name"])
             self.player_key = player["player"]["player_key"]
             if "status" in player["player"] and player["player"]["status"] != "GTD":
                 self.is_injured = True
             else:
                 self.is_injured = False
-            self.team_roster.append(Player(self.player_name, 
-                                           self.player_id, 
-                                           self.nba_team, 
-                                           self.team_id, 
-                                           self.player_key, 
-                                           self.category_list,
-                                           self.stat_id_dict,
-                                           self.yahoo_query,
-                                           self.is_injured)
-                                    )
+            
+            # Find the player from the league list and update with additional details
+            for league_player in self.league_players:
+                if league_player.get_player_name() == self.player_name:
+                    league_player.set_player_id(self.player_id)
+                    league_player.set_player_fantasy_team_id(self.team_id)
+                    league_player.set_player_key(self.player_key)
+                    league_player.set_injury_status(self.is_injured)
+                    self.team_roster.append(league_player)
+                    break
+                                                     
         return (self.team_roster)
     
     def get_num_players_on_court(self):
@@ -287,48 +298,31 @@ class Matchup(object):
                     self.on_court_players += 1
         
         return(self.on_court_players)
-    
-    def get_current_matchup_scores(self):
-        """
-        Gets the current matchup score based on user inputs
-        
-        Returns:
-             matchup_scores (Dict<string:List<float>): a dictionary with stat categories as keys, 
-                                                       a list with the score of each team as values
-        """                     
-        #TO DO
-        self.matchup_scores = {
-                              "FG%": [0.478, 0.456],
-                              "FT%": [0.876, 0.912],
-                              "3PTM": [45, 67],
-                              "PTS": [145, 210],
-                              "REB": [67, 98],
-                              "AST": [34, 27],
-                              "TO": [21, 31],
-                              "ST": [13, 16],
-                              "BLK": [9, 8]
-                              }
-        
-        return(self.matchup_scores)
-    
-    
-    def get_projected_scores(self):
+            
+    def get_projected_scores(self, nba_teams, end_date, league_players, current_scores):
         """
         Determines projected scores at the end of the matchup
+        
+        Parameters:
+            nba_teams (Dict<string:NBAteam>): A dictionary of NBA team objects, with team names and schedules associated with them
+            end_date (string): the last day of the matchup
+            league_players (List<Player>): a list of all players in the league
+            current_scores (Dict<List<float>>): a dictionary with categories as keys, a list with the user score and opponent score for the
+                                                category as values
         
         Returns:
             projected_scores (Dict<string:List<float>): a dictionary with stat categories as keys,
                                                         a list with the projected final score of each team as values
+            days_remaining (integer): the number of days remaining in the matchup
 
         """         
         # Get the rosters for each team and the current matchup score
-        self.category_list = self.get_matchup_categories()
-        self.stad_id_dict = self.get_stat_id_dict() 
-        self.rosters = [self.get_team_roster(self.get_user_team_id(), self.category_list, self.stat_id_dict), 
-                        self.get_team_roster(self.get_opponent_id(), self.category_list, self.stat_id_dict)]
-        self.projected_scores = self.get_current_matchup_scores()
-        self.end_date = self.get_matchup_end_date()
-        self.nba_teams = self.get_nba_teams(self.date, self.end_date)
+        self.league_players = league_players
+        self.rosters = [self.get_team_roster(self.get_user_team_id(), self.league_players), 
+                        self.get_team_roster(self.get_opponent_id(), self.league_players)]
+        self.projected_scores = current_scores
+        self.end_date = end_date
+        self.nba_teams = nba_teams
         self.players_on_court_limit = self.get_num_players_on_court()
         
         self.current_datetime = datetime.strptime(self.date,"%Y-%m-%d")
@@ -355,29 +349,37 @@ class Matchup(object):
                         # Get the players average stats using the player class
                         player_stats = player.get_average_stats()
                         for stat in player_stats:
-                            # Check to see if the stat is a counting stat or FG%/FT% 
-                            # as needs to be added differently if so  
-                            if stat == "FG%" or stat == "FT%":
-                                self.projected_scores[stat][roster] = (30*self.projected_scores[stat][roster] + float(player_stats[stat]))/31
-                            else:
-                                self.projected_scores[stat][roster] += float(player_stats[stat])
+                            # Check if the particular stat is counted in the league format
+                            if stat in self.projected_scores:
+                                # Check to see if the stat is a counting stat or FG%/FT% 
+                                # as needs to be added differently if so  
+                                if stat == "FG%" or stat == "FT%":
+                                    self.projected_scores[stat][roster] = (30*self.projected_scores[stat][roster] + float(player_stats[stat]))/31
+                                else:
+                                    self.projected_scores[stat][roster] += float(player_stats[stat])
 
             self.days_remaining += 1
             self.current_datetime += timedelta(days=1)
         
-        return(self.projected_scores, self.days_remaining, self.nba_teams)
+        return(self.projected_scores, self.days_remaining)
     
-    def get_weighting_scores(self):
+    def get_weighting_scores(self, projected_scores, days_remaining):
         """
         Calculates weighting scores based on the category margins and uncertainty correction factor (which is
         based on the number of days remaining in the matchup)
+        
+        Parameters:
+            projected_scores (Dict<string:List<float>): a dictionary with stat categories as keys,
+                                                        a list with the projected final score of each team as values
+            days_remaining (integer): the number of days remaining in the matchup            
         
         Returns:
             weighting_scores (Dict<string:float): a dictionary with stat categories as keys,
                                                   weighting scores as values
 
         """           
-        self.projected_scores, self.days_remaining, self.nba_teams = self.get_projected_scores()
+        self.projected_scores = projected_scores
+        self.days_remaining = days_remaining
         self.uncertainty_correction_factor_dict = {
                                                 1:1,
                                                 2:0.9,
@@ -400,5 +402,98 @@ class Matchup(object):
             self.percentage_diff = self.correction_factor*abs(self.projected_scores[stat][0] - 
                                        self.projected_scores[stat][1])/self.projected_scores[stat][0]
             
-        return(self.weighting_scores, self.nba_teams)
-    
+        return(self.weighting_scores)
+
+    def get_waiver_player_list(self, league_players):
+        """
+        Find the available players on the waivers by removing all the owned players from the overall player list
+        
+        Parameters:
+            league_players (List<Player>): a list of all players in the league
+        
+        Returns:
+            waiver_players(List<Player>): A list of players that are available for acquisition from the waivers
+
+        """           
+        self.league_players = league_players
+        self.waiver_player_list = self.league_players.copy()
+        self.num_teams = (json.loads(str(self.yahoo_query.get_league_metadata())))["num_teams"]
+        
+        # Remove all of the players that are already on a team from the waiver player list
+        for i in range(1, self.num_teams + 1):
+            self.team_roster = self.get_team_roster(str(i), self.league_players)
+            for player in self.team_roster:     
+                self.waiver_player_list.remove(player)
+        
+        return(self.waiver_player_list)
+
+    def get_waiver_scores(self, waiver_player_list, weighting_scores):
+        """
+        Calculates the viability score for all players in the waiver players list.
+        
+        Parameters:
+            waiver_players(List<Player>): A list of players that are available for acquisition from the waivers
+            weighting_scores (Dict<string:float): a dictionary with stat categories as keys,
+                                                  weighting scores as values
+        
+        Returns:
+            waiver_player_scores(List<Tuple<string,float>): a sorted list of tuples, each tuple containing a player name 
+                                                            and their waive score 
+
+        """           
+        self.waiver_player_list = waiver_player_list
+        self.weighting_scores = weighting_scores
+        self.waiver_player_scores = {}
+        
+        # Raw scoring system, based on points league format
+        self.scoring_system = {
+                              "FG%": 0,
+                              "FT%": 0,
+                              "3PTM": 3,
+                              "PTS": 0.5,
+                              "REB": 1.5,
+                              "AST": 2,
+                              "TO": -2,
+                              "ST": 3,
+                              "BLK": 3,
+                              "DD": 4,
+                              "TD": 5
+                                }
+        
+        for player in self.waiver_player_list:
+            
+            # Don't calculate scores for injured players
+            if player.get_injury_status():
+                continue
+            
+            self.player_stats = player.get_average_stats()
+            self.player_score = 0
+            for stat in self.player_stats:
+                if stat in self.scoring_system:
+                    self.player_score += self.player_stats[stat]*self.scoring_system[stat]
+            
+            # Factor scores based on on fg and ft %s
+            if self.player_stats["FG%"] < 0.45:
+                self.player_score *= 0.9
+            elif self.player_stats["FG%"] < 0.47:
+                self.player_score *= 0.95
+            elif self.player_stats["FG%"] > 0.55:
+                self.player_score *= 1.10
+            elif self.player_stats["FG%"] > 0.525:
+                self.player_score *= 1.05
+
+            if self.player_stats["FT%"] < 0.75:
+                self.player_score *= 0.9
+            elif self.player_stats["FT%"] < 0.80:
+                self.player_score *= 0.95
+            elif self.player_stats["FT%"] > 0.90:
+                self.player_score *= 1.10
+            elif self.player_stats["FT%"] > 0.85:
+                self.player_score *= 1.05
+           
+            self.waiver_player_scores[player.get_player_name()] = round(self.player_score,2)
+        
+        # Sort the dictionary into order based on player viability scores
+        self.sorted_waiver_player_scores  = sorted(self.waiver_player_scores.items(), key = operator.itemgetter(1), reverse = True)
+                
+        return(self.sorted_waiver_player_scores)

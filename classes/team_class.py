@@ -6,7 +6,6 @@
 from sportsipy.nba.schedule import Schedule
 from datetime import datetime
 
-
 class NBAteam(object):
     """
     A Team object represents an NBA team
@@ -19,8 +18,7 @@ class NBAteam(object):
             team_name (string): name of the NBA team
             date (string): the day a player needs to be acquired for
             end_date (string): the last day of the matchup
-            schedule (Dict<string:Boolean>): A dictionary with a dates as keys, and a boolean that represents whether the team has a game on 
-                                             that day as value. Length is dictated by the dates in the matchup.
+            
         """
         self.nba_team_name = nba_team_name
         self.date = date
