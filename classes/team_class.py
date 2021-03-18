@@ -37,5 +37,3 @@ class NBAteam(object):
     
     def get_nba_team_name(self):    
         return (self.nba_team_name)
-
-

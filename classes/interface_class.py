@@ -80,13 +80,7 @@ class Interface(object):
         self.league_id = self.league_id_var.get()
         self.game_id = "402"
         self.game_code = "nba"
-        
-        self.date = "2021-03-17"
-        self.user_team_name = "Tim's Top-Notch Team"
-        self.game_id = "402"
-        self.game_code = "nba"
-        self.league_id = '254983'
-        
+            
         # Login to Yahoo fantasy API
         self.yahoo_query = yahoo_login(self.game_id, self.league_id, self.game_code)
         

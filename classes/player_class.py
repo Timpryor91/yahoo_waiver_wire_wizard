@@ -77,6 +77,3 @@ class Player(object):
     
     def get_injury_status(self):
         return(self.is_injured)
-    
-
-    
